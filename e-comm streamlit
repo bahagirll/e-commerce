@@ -1,4 +1,12 @@
 import streamlit as st
+import streamlit as st
+import pandas as pd
+import numpy as np
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 st.title("Monitoring of User Behavior of an eCommerce site")
 st.sidebar.title("Table of contents")
 pages=["Project overview","Pre-Processing", "DataVizualization","Feature Engineering and Modelling","Conclusion"]
@@ -11,14 +19,7 @@ st.sidebar.write("Created by:")
 for creator in creators:
     st.sidebar.write(creator)
 st.sidebar.write('2024 February-April  Data Analyst Bootcamp')
-import streamlit as st
-import pandas as pd
-import numpy as np
-import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 base="dark"
 secondaryBackgroundColor="#f2f8fc"

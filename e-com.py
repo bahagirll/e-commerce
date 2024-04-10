@@ -1,17 +1,4 @@
 import streamlit as st
-st.title("Monitoring of User Behavior of an eCommerce site")
-st.sidebar.title("Table of contents")
-pages=["Project overview","Pre-Processing", "DataVizualization","Feature Engineering and Modelling","Conclusion"]
-page=st.sidebar.radio("Go to", pages)
-# Names of the creators
-creators = ["Fruzsina", "Valentin", "Ranya", "Julian"]
-@st.cache_data
-# Display the names in the sidebar
-st.sidebar.write("Created by:")   
-for creator in creators:
-    st.sidebar.write(creator)
-st.sidebar.write('2024 February-April  Data Analyst Bootcamp')
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -20,6 +7,20 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+st.title("Monitoring of User Behavior of an eCommerce site")
+st.sidebar.title("Table of contents")
+pages=["Project overview","Pre-Processing", "DataVizualization","Feature Engineering and Modelling","Conclusion"]
+page=st.sidebar.radio("Go to", pages)
+# Names of the creators
+creators = ["Fruzsina", "Valentin", "Ranya", "Julian"]
+
+# Display the names in the sidebar
+st.sidebar.write("Created by:")   
+for creator in creators:
+    st.sidebar.write(creator)
+st.sidebar.write('2024 February-April  Data Analyst Bootcamp')
+
+
 
 base="dark"
 secondaryBackgroundColor="#f2f8fc"

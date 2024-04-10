@@ -7,7 +7,7 @@ page=st.sidebar.radio("Go to", pages)
 creators = ["Fruzsina", "Valentin", "Ranya", "Julian"]
 @st.cache_data
 # Display the names in the sidebar
-    st.sidebar.write("Created by:")
+    
 for creator in creators:
     st.sidebar.write(creator)
 st.sidebar.write('2024 February-April  Data Analyst Bootcamp')
